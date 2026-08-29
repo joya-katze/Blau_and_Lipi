@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Configuración - Blau Lipi™</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Barra de navegación superior -->
+    <header class="navbar">
+      <h1><a href="index.html">Blau Lipi™</a></h1>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="https://www.instagram.com/blau_lipi" target="_blank">Instagram</a>
+        <a href="settings.html" class="settings-link">
+          <span>Configuración</span>
+          <img src="Settings.svg" alt="Configuración" width="18" height="18">
+        </a>
+      </nav>
+    </header>
+    
+    <!-- Contenido principal de configuración -->
+    <main>
+      <h2>Configuración de la página</h2>
+      <p>Personaliza las preferencias de visualización para Blau Lipi™.</p>
+      
+      <div style="margin-top: 30px;">
+        <label for="theme-select" style="font-weight: bold; margin-right: 10px; color: var(--accent-color);">Seleccionar Tema:</label>
+        <select id="theme-select" style="padding: 8px; border-radius: 6px; background-color: var(--card-bg); color: var(--text-color); border: 1px solid var(--border-color);">
+          <option value="dark">Oscuro (Default)</option>
+          <option value="light">Blanco</option>
+          <option value="auto">Automático (Sistema)</option>
+        </select>
+      </div>
+    </main>
+    
+    <!-- Pie de página -->
+    <footer>
+      <p>Visita su Instagram oficial: <a href="https://www.instagram.com/blau_lipi" target="_blank">@blau_lipi</a></p>
+      <p>Blau Lipi™ - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
